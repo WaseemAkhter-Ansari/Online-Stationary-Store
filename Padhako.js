@@ -69,20 +69,20 @@ alert(str1+str2+str3)
 combineString('Kumail',321,'Hello')
 combineString(1,2,5)
 */
-function hello(p){ 
+function hello(p) {
     alert(`Hello ${p}`)
 }
 var p = prompt('Your name')
-switch(p){
-    case "ali":{
+switch (p) {
+    case "ali": {
         hello('ali')
         break
     }
-    case "sabir":{
+    case "sabir": {
         hello('sabir')
         break
     }
-    case "tayyab":{
+    case "tayyab": {
         hello('tayyab')
         break
     }
@@ -91,112 +91,106 @@ switch(p){
     }
 }
 
-for(var i=0; i<9; i++){
+for (var i = 0; i < 9; i++) {
     console.log(i)
 }
-for(var i=10; i>0; i--){
+for (var i = 10; i > 0; i--) {
     console.log(i)
 }
-var i=0;
-while(i<10){
+var i = 0;
+while (i < 10) {
     console.log(i);
     i++
 }
-var i=10;
-while(i>0){
+var i = 10;
+while (i > 0) {
     console.log(i);
     i--
 }
-var i=0;
-do{
+var i = 0;
+do {
     console.log(i);
     i++
 }
-while(i<10) 
+while (i < 10)
 
-var i=10;
-do{
+var i = 10;
+do {
     console.log(i);
     i--
 }
-while(i>10) 
+while (i > 10)
 
 //Test
 
-let arr = [4,7,"Ahmed",16,9,"Hi",0,45]
+let arr = [4, 7, "Ahmed", 16, 9, "Hi", 0, 45]
 
-for (let i=0; i<arr.length; i++) {
-      
-      if (typeof arr[i] === 'number') {
-        
-      if(arr[i] = arr[i]%2=== 0
+for (let i = 0; i < arr.length; i++) {
+
+    if (typeof arr[i] === 'number') {
+
+        if (arr[i] = arr[i] % 2 === 0
             ('even');
-      
-    else if(typeof arr[i]%2!=0{
+
+        else if (typeof arr[i] % 2 != 0{
             ('odd');
-    }
-    else{
-        ('String')
-    }
-    
-  //array.map
-  let arr=[5,2,'Hi,101,'Test'];
-  let res=arr.map((item)=>{
-    if(typeof(item)==='number'){
-        if(item%2==0){
-            item='even'
         }
-        else{
-            item='odd'
+        else {
+            ('String')
         }
-    }
-    return item
-  })
+
+        //array.map
+        let arr = [5, 2, 'Hi,101,'Test'];
+  let res = arr.map((item) => {
+            if (typeof (item) === 'number') {
+                if (item % 2 == 0) {
+                    item = 'even'
+                }
+                else {
+                    item = 'odd'
+                }
+            }
+            return item
+        })
   console.log(res)
 
 
-  let a = ['a','e','i','o','u']
+  let a = ['a', 'e', 'i', 'o', 'u']
   
-  let arr = ['z','a','y','b','i','c','u']
+  let arr = ['z', 'a', 'y', 'b', 'i', 'c', 'u']
 
-  for (let i=0; i<arr.length; i++) {
-      
-      }
+  for (let i = 0; i < arr.length; i++) {
 
-      
-
-      let arr = ['z','a','y','b','i','c','u']
-
-  for (let i=0; i<arr.length; i++) {
-       if(arr[i]=='a'||arr[i]=='e'||arr[i]=='i'||arr[i]=='o'||arr[i]=='u'){
-        arr[i]="True";
-       } 
-       else{
-        arr[i]="False";
-       } 
-      }
-      console.log(arr);
-
-      
-      let arr = ['z','a','y','b','i','c','u']
-      let res=arr.map(char=>{
-        switch(char){
-            case 'a':
-            case 'e':
-            case 'i':
-            case 'o':
-            case 'u':
-                {return true}
-            default:{
-                return false
-            }        
         }
-      })
-      console.log(res)
-      
 
 
 
+        let arr = ['z', 'a', 'y', 'b', 'i', 'c', 'u']
+
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] == 'a' || arr[i] == 'e' || arr[i] == 'i' || arr[i] == 'o' || arr[i] == 'u') {
+                arr[i] = "True";
+            }
+            else {
+                arr[i] = "False";
+            }
+        }
+        console.log(arr);
 
 
+        let arr = ['z', 'a', 'y', 'b', 'i', 'c', 'u']
+        let res = arr.map(char => {
+            switch (char) {
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                    { return true }
+                default: {
+                    return false
+                }
+            }
+        })
+        console.log(res)
 
