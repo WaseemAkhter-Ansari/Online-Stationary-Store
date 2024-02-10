@@ -1,0 +1,40 @@
+.mainheading{
+    font-size: 45px;
+    font-family: sans-serif;
+    font-stretch: expanded;
+    color: darkblue;
+    background-color: khaki;
+    border-style: dotted;
+    border : 10px solid brown;
+    padding: 20px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+.subheading{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: darkblue;
+}
+.mytable{
+    border-collapse: collapse;
+}
+.mytable th, .mytable td {
+    border: 1px solid black
+    padding 8px;
+}
+.mytable tr{
+    border-bottom: 1px solid rgb(211, 42, 42);
+    border-style: dotted;
+}
+
+/* ./* table> tr{
+    border: 5px solid blue;
+    border-style: double;
+    color: darkcyan;
+} */
+ .stylish{
+    font-size: x-small;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
